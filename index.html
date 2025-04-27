@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Handling & Interactive Elements Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+  <!-- Button with Dynamic Behavior -->
+  <button id="clickBtn">Click me!</button>
+
+  <!-- Keypress Display -->
+  <div id="keyPressDisplay"></div>
+
+  <!-- Image Gallery/Slideshow -->
+  <div class="gallery">
+    <img id="galleryImage" src="image1.jpg" alt="Gallery Image">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <!-- Tabs/Accordion -->
+  <div class="tabs">
+    <div class="tab" data-tab="Tab 1">Tab 1</div>
+    <div class="tab" data-tab="Tab 2">Tab 2</div>
+  </div>
+  <div id="tabContent"></div>
+
+  <!-- Form with Validation -->
+  <form id="signupForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required placeholder="Enter your email" />
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" required placeholder="Enter your password" />
+    <div id="passwordMessage"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
